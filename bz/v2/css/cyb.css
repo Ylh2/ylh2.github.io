@@ -1,0 +1,96 @@
+/* STYLE SHEET FOR all .HTML */
+
+header
+{
+text-align: center;	
+font-weight: bold; 
+margin-top: 50px; 
+font-family: Geneva, Swiss, sans-serif;
+font:12 px;
+color: purple;
+border: 10px solid orange;
+padding: 1px;
+background-color: #F0E68C;
+line-height:2.0;
+}
+h2, h3
+{
+line-height:1.0;
+font-family: Geneva, Swiss, sans-serif;	
+font-weight: ; 
+}
+article 	
+{			
+padding:2px;
+margin-left:300px;
+margin-right:;
+line-height:1.5;
+width:900px;
+text-align:Justify;
+display:block;
+height:800px;
+color: black, blue, white;
+}
+
+#form
+{
+float:center;
+margin-left:300px;
+padding-top:10px;
+position:absolute;
+}
+a
+{
+color: black;	
+}
+body
+{
+margin:10px;
+margin-left: px;
+margin-right:px;
+background-image:url("../images/backgroundimage5.jpg");
+background-size:1550px;
+font-family: Geneva, arial, verdana, helvetica; 
+color:black, blue;
+font-size:20px; 
+line-height:1;
+}
+
+nav 
+{
+padding-left:50px;
+float:left;
+width:130px;
+height:50px;
+margin-top:70px;
+}
+.btn {
+    border: 10;
+    background-color: #ff4410;
+    padding: 14px 8px;
+    font-size: 16px;
+	font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+	width: 250%;
+	
+}
+
+.btn:hover {background: orange}
+td.center{
+	text-align:center;
+	
+}
+table{
+	width:70%;
+	margin-right:650px;
+}
+
+td{
+	padding:10px;
+}
+
+th
+{
+	text-align:center;
+}

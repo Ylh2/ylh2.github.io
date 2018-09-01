@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"/>
+<!--author: Zahra Bayati, December 2016 -->
+<meta name="author" content="Zahra">
+<meta name="date" content="December 28, 2016">
+
+<title>Guestbook</title>
+
+<link rel="stylesheet" href="../css/cyb.css" type="text/css">
+
+<style type="text/css">
+background-image: url(".../images/background2.jpg");
+
+</style>
+
+</head>
+
+<body>
+<header>
+<h1>GUESTBOOK</h1>
+</header>
+
+<!--NAV-->
+<nav>
+<br/> 
+<br/>
+<a href="home.html"><img height="30" alt="click here to go back to Home page" src="../images/button7.png" width="150" /></a><br/><br/>
+<a href="resume.html"> <img height="30" alt="click here to see my Resume" src="../images/button(1).png" width="150" id="Resume"/></a><br/><br/>
+<a href="interests.html"><img height="30" alt="click here to see my Interests" src="../images/button.png" width="150"  id="Interests"/></a><br/><br/>
+<a href="reflections.html"><img height="30" alt="click here to see my Reflections" src="../images/button4.png" width="150"  id="Reflections"/></a><br/><br/>
+</nav>
+<!--article-->
+<div id="form">
+<form
+	method="post"
+	action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+
+Enter Your Name:<input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/>
+<br/>
+What country do you live in? <input type="text" name="country" size="40"/><br/>
+<br/>
+
+What is your age group?<br/>
+<input type="radio" name="AddToList" value="Under 18" checked="checked"/>Under 18<br/>
+<input type="radio" name="AddToList" value="18-30" checked="checked"/> 18-30 <br/>
+<input type="radio" name="AddToList" value="31-45" checked="checked"/> 31-45 <br/>
+<input type="radio" name="AddToList" value="46-65" checked="checked"/> 46-65 <br/>
+<br/>
+<br/>
+Should we add you to our mailing list?<input type="checkbox" /><br/> 
+<br/>
+<br/>
+
+What web technologies are you interested in? (check all that apply):<br/>
+<select name="Interests" multiple="multiple" size="6">
+<option> HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>AJAX</option>
+<option>SQL</option>
+<option>PHP</option>
+</select>
+<br/>
+<br/>
+
+How did you find my website?<br/>
+<select name="website">
+<option>Select one</option>
+<option>I'm a friend</option>
+<option>A friend directed me to your site</option>
+<option>School Web Site </option>
+<option>A search engine directed me to your site</option>
+<option>I came across your site by accident</option>
+<option>Other </option>
+</select>
+<br/>
+<br/>
+
+Comments:<br/>
+<textarea name="comments"  cols="30" rows="3" >
+Enter your message here.
+</textarea>
+<br/>
+<br/>
+
+<input type="Submit"/>
+<input type="Reset"/><br/><br/><br/><br/>
+
+</form>
+</div>
+
+</body>
+
+</html>
